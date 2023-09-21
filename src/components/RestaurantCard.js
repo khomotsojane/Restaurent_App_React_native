@@ -19,7 +19,7 @@ const RestaurantCard = ({ info }) => {
 
 
           <View style={styles.iconLabelStyle}>
-          <TouchableOpacity onPress={()=>SubmitBirthdate()} style={{ marginTop: -10,backgroundColor:'#FFE6D9',height:35}}>
+          <TouchableOpacity style={{ marginTop: -10,backgroundColor:'#FFE6D9',height:35}}>
             <Text style={{color:'black', margin:5}}>Add to bag</Text>
         </TouchableOpacity>
         <Text style={{marginTop: -10, marginLeft: 20, fontSize: 20}}>{price}</Text>
