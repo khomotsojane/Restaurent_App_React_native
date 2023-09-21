@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "RestaurantApp",
+    "slug": "RestaurantApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Food.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Food.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFE6D9"
+      
+    },
+    
+    
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Food.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Food.png"
+    }
+  }
+}
